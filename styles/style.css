@@ -22,11 +22,19 @@ div#navMid {
     width: 60%;
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
+}
+div#navMid>div:hover{
+    border-bottom: 3px solid black;
 }
 div#navEnd {
     width: 20%;
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
+}
+div#navEnd>div {
+    margin-left: 23%;
 }
 div#midWhole {
     height: 85vh;
