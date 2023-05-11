@@ -68,26 +68,31 @@ h1#monstera {
     height: 100%;
 }
 div#midWholePart12 {
-    width: 25%;
+    width: 28%;
     display: flex;
     height: 9%;
-    border-radius: 1vw;
-    background-color: #1e541eba;
     justify-content: space-around;
     align-items: center;
     font-size: 1vw;
-    cursor: pointer;
+   
 }
 div#midWholePart121 {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-evenly;
     color: white;
+    height: 100%;
+    width: 100%;
+    background-color: #144b14bd;
+    align-items: center;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+div#midWholePart121:hover{
+    background-color: green;
 }
 div#midWholePart122 {
-    margin: 0% 5%;
     width: 1vw;
-    height: 100%;
+    height: 50%;
 }
 div#midWholePart13 {
     width: 100%;
@@ -95,13 +100,13 @@ div#midWholePart13 {
     display: flex;
     /* align-items: center; */
     justify-content: space-around;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 .midWholePart13Parts {
     width: 33.33%;
     height: 100%;
     display: flex;
-    font-size: 1vw;
+    font-size: 0.8vw;
     align-items: center;
 }
 img#feeding {
