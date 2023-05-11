@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+nav#navbarMonstera {
+    height: 15vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Allerta', sans-serif;
+}
+div#navFirst {
+    width: 20%;
+}
+div#navMid {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+div#navEnd {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+div#midWhole {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div#midWholePart1{
+    /*font-family: 'Abel', sans-serif; */
+    font-family: 'Allerta', sans-serif;
+    width: 57vw;
+    height: 100%;
+    margin-left: 5vw;
+}
+
+div#midWholePart11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 100%; 
+    height: 60%;
+}
+li {
+    width: 90%;
+    /* margin: 0% 38% 0 0%; */
+}
+h1#monstera {
+    font-size: 9vw;
+    width: 100%;
+    height: 100%;
+}
+div#midWholePart12 {
+    width: 25%;
+    display: flex;
+    height: 9%;
+    border-radius: 1vw;
+    background-color: #1e541eba;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+    cursor: pointer;
+}
+div#midWholePart121 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+div#midWholePart122 {
+    margin: 0% 5%;
+    width: 1vw;
+    height: 100%;
+}
+div#midWholePart13 {
+    width: 100%;
+    height: 24%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 4%;
+}
+.midWholePart13Parts {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    font-size: 1vw;
+    align-items: center;
+}
+img#feeding {
+    width: 100%;
+    height: 100%;
+}
+img#light {
+    width: 100%;
+    height: 100%;
+}
+img#care {
+    width: 100%;
+    height: 100%;
+}
+img#imgMain {
+    height: 84vh;
+    width: 39vw;
+}
